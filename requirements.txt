@@ -1,0 +1,6 @@
+requests>=2.31
+pymupdf>=1.24
+pillow>=10.0
+pytesseract>=0.3.10
+tiktoken>=0.7
+pyperclip>=1.8
