@@ -1,4 +1,4 @@
-$base = "C:\Users\hayef\Documents\Visual Studio 2026\FiscalIQ\Tools\Utilities\GrootPrompt"
+$base = "......"
 $src  = "$base\slash-commands"
 $dst  = "$env:USERPROFILE\.claude\commands"
 
