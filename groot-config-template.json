@@ -1,0 +1,58 @@
+{
+  "active": true,
+  "min_words": 10,
+  "validate_mode": false,
+  "compression_type": "full",
+  "file_extraction_enabled": true,
+  "llm_provider": "llama",
+  "providers": {
+    "llama": {
+      "url": "http://localhost:8080/v1/chat/completions",
+      "model": "gemma-4-26b-a4b",
+      "api_key": null,
+      "type": "openai"
+    },
+    "ollama": {
+      "url": "http://localhost:11434/v1/chat/completions",
+      "model": "llama3.2",
+      "api_key": null,
+      "type": "openai"
+    },
+    "lmstudio": {
+      "url": "http://localhost:1234/v1/chat/completions",
+      "model": "local-model",
+      "api_key": null,
+      "type": "openai"
+    },
+    "openai": {
+      "url": "https://api.openai.com/v1/chat/completions",
+      "model": "gpt-4o-mini",
+      "api_key": "",
+      "type": "openai"
+    },
+    "anthropic": {
+      "url": "https://api.anthropic.com/v1/messages",
+      "model": "claude-haiku-4-5-20251001",
+      "api_key": "",
+      "type": "anthropic"
+    },
+    "nvidia": {
+      "url": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "model": "meta/llama-3.1-70b-instruct",
+      "api_key": "",
+      "type": "openai"
+    },
+    "groq": {
+      "url": "https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant",
+      "api_key": "",
+      "type": "openai"
+    },
+    "mistral": {
+      "url": "https://api.mistral.ai/v1/chat/completions",
+      "model": "mistral-small-latest",
+      "api_key": "",
+      "type": "openai"
+    }
+  }
+}
